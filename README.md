@@ -13,6 +13,7 @@ Three init m files:
 1) set_paths.m : Includes the necessary paths for the experiments to run. Edit the paths accordingly to your system. Also, you might need to slightly modify the paths in the beginning of multiview.m and singleview.m. No need to run this script individually as it is run in the beginning of multiview.m and singleview.m.
 2) set_init_params.m : Sets all necessary parameters for detection.
 3) set_training_params.m : Sets all necessary parameters for creating a new codebook. 
+
 Note that these scripts are run in the three main m files, so there is no need to run them individually.
 
 ### External Sources (included in the code)
