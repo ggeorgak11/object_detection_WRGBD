@@ -31,5 +31,14 @@ Position the extracted folder in the ../segbench as shown in the set_paths.m (as
 
 ### Citation
 If you use this code for your research, please consider citing:
-
+```
+@inproceedings{georgakis2016rgb,
+  title={RGB-D multi-view object detection with object proposals and shape context},
+  author={Georgakis, Georgios and Reza, Md Alimoor and Ko{\v{s}}ecka, Jana},
+  booktitle={2016 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={4125--4130},
+  year={2016},
+  organization={IEEE}
+}
+```
 
