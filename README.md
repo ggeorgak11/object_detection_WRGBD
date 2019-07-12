@@ -14,3 +14,13 @@ Three init m files:
 2) set_init_params.m : Sets all necessary parameters for detection.
 3) set_training_params.m : Sets all necessary parameters for creating a new codebook. 
 Note that these scripts are run in the three main m files, so there is no need to run them individually.
+
+### External Sources (included in the code)
+1) Some of the functions in class_specific_detector.m and create_codebook.m are taken (and edited) from the work of Liming Wang on the paper:
+Wang, Liming, Jianbo Shi, Gang Song, and I-fan Shen. "Object detection combining recognition and segmentation." In Asian conference on computer vision. 2007. 
+2) /utilities/depthToCloud.m : Helper function downloaded from http://rgbd-dataset.cs.washington.edu/software.html. Slightly edited.
+3) /utilities/fill_depth_colorization.m : Used as is from the NYU dataset v2 toolbox. http://cs.nyu.edu/~silberman/datasets/nyu_depth_v2.html
+4) Mean-shift code in /proposals/mean_shift/ taken from https://www.mathworks.com/matlabcentral/fileexchange/10161-mean-shift-clustering
+5) Support surfaces: The mex files in /support_surface/plane_estimation/ which create the initial segmentation based on plane detection
+are taken from the work of Taylor and Cowley on the paper:
+Taylor, Camillo J., and Anthony Cowley. "Parsing indoor scenes using rgb-d imagery." Robotics: Science and Systems. Vol. 8. 2013. 
