@@ -1,4 +1,4 @@
-## Multiview RGB-D Object Detection with Object Proposals and Shape Context 
+## RGB-D Multi-View Object Detection with Object Proposals and Shape Context 
 Georgios Georgakis, Md Alimoor Reza, Jana Kosecka, IROS 2016
 
 This is MATLAB code for running the single-view and multi-view object detectors on the WRGB-D dataset.
@@ -24,3 +24,12 @@ Wang, Liming, Jianbo Shi, Gang Song, and I-fan Shen. "Object detection combining
 5) Support surfaces: The mex files in /support_surface/plane_estimation/ which create the initial segmentation based on plane detection
 are taken from the work of Taylor and Cowley on the paper:
 Taylor, Camillo J., and Anthony Cowley. "Parsing indoor scenes using rgb-d imagery." Robotics: Science and Systems. Vol. 8. 2013. 
+
+### External Sources (not included in the code)
+1) The gPb edge detector used in our work can be downloded here: https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/segbench/code/segbench.tar.gz
+Position the extracted folder in the ../segbench as shown in the set_paths.m (assuming your working folder is the code root). In our case, the edge detector code did not need to be compiled and could be used directly.
+
+### Citation
+If you use this code for your research, please consider citing:
+
+
